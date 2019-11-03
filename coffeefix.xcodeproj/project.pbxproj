@@ -7,14 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D1F331216D37EA03813D2B4 /* Pods_coffeefix.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 603EEB96B631C56EB0FD8B1F /* Pods_coffeefix.framework */; };
+		11939438231B01BC00D9894D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11939437231B01BC00D9894D /* Constants.swift */; };
+		1193943D231B050900D9894D /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1193943C231B050900D9894D /* HelpViewController.swift */; };
+		1193943F231B052500D9894D /* InstructionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1193943E231B052500D9894D /* InstructionsViewController.swift */; };
+		11939441231B09F100D9894D /* RotateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11939440231B09F100D9894D /* RotateView.swift */; };
 		11A8558C22D110200036203B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A8558B22D110200036203B /* AppDelegate.swift */; };
 		11A8558E22D110200036203B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A8558D22D110200036203B /* ViewController.swift */; };
 		11A8559122D110200036203B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11A8558F22D110200036203B /* Main.storyboard */; };
 		11A8559322D110210036203B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11A8559222D110210036203B /* Assets.xcassets */; };
 		11A8559622D110210036203B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11A8559422D110210036203B /* LaunchScreen.storyboard */; };
+		11B594F122DD3F80008F658B /* CoffeeTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B594F022DD3F80008F658B /* CoffeeTimer.swift */; };
+		11B594F322DD40F4008F658B /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B594F222DD40F4008F658B /* TimerViewController.swift */; };
+		11FC9604236F1C5B005F19B5 /* MeasurementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FC9603236F1C5B005F19B5 /* MeasurementViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		11939437231B01BC00D9894D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		1193943C231B050900D9894D /* HelpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
+		1193943E231B052500D9894D /* InstructionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionsViewController.swift; sourceTree = "<group>"; };
+		11939440231B09F100D9894D /* RotateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotateView.swift; sourceTree = "<group>"; };
 		11A8558822D110200036203B /* coffeefix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = coffeefix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11A8558B22D110200036203B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		11A8558D22D110200036203B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +34,12 @@
 		11A8559222D110210036203B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		11A8559522D110210036203B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		11A8559722D110210036203B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11B594F022DD3F80008F658B /* CoffeeTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeTimer.swift; sourceTree = "<group>"; };
+		11B594F222DD40F4008F658B /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		11FC9603236F1C5B005F19B5 /* MeasurementViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasurementViewController.swift; sourceTree = "<group>"; };
+		200963E67A4383AB899A13A6 /* Pods-coffeefix.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-coffeefix.release.xcconfig"; path = "Pods/Target Support Files/Pods-coffeefix/Pods-coffeefix.release.xcconfig"; sourceTree = "<group>"; };
+		603EEB96B631C56EB0FD8B1F /* Pods_coffeefix.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_coffeefix.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FBD1A08004276F4347CF263 /* Pods-coffeefix.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-coffeefix.debug.xcconfig"; path = "Pods/Target Support Files/Pods-coffeefix/Pods-coffeefix.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +47,49 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D1F331216D37EA03813D2B4 /* Pods_coffeefix.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		11939436231AFAD800D9894D /* constants */ = {
+			isa = PBXGroup;
+			children = (
+				11939437231B01BC00D9894D /* Constants.swift */,
+			);
+			path = constants;
+			sourceTree = "<group>";
+		};
+		11939439231B04CA00D9894D /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				11B594F222DD40F4008F658B /* TimerViewController.swift */,
+				11A8558D22D110200036203B /* ViewController.swift */,
+				1193943C231B050900D9894D /* HelpViewController.swift */,
+				1193943E231B052500D9894D /* InstructionsViewController.swift */,
+				11FC9603236F1C5B005F19B5 /* MeasurementViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		1193943B231B04D800D9894D /* view */ = {
+			isa = PBXGroup;
+			children = (
+				11B594F022DD3F80008F658B /* CoffeeTimer.swift */,
+				11939440231B09F100D9894D /* RotateView.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
 		11A8557F22D110200036203B = {
 			isa = PBXGroup;
 			children = (
 				11A8558A22D110200036203B /* coffeefix */,
 				11A8558922D110200036203B /* Products */,
+				FB0B501984673212C36675E9 /* Pods */,
+				4EB69F3BCC7EEC1B2DA3E8DE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +104,33 @@
 		11A8558A22D110200036203B /* coffeefix */ = {
 			isa = PBXGroup;
 			children = (
+				1193943B231B04D800D9894D /* view */,
+				11939439231B04CA00D9894D /* controller */,
+				11939436231AFAD800D9894D /* constants */,
 				11A8558B22D110200036203B /* AppDelegate.swift */,
-				11A8558D22D110200036203B /* ViewController.swift */,
 				11A8558F22D110200036203B /* Main.storyboard */,
 				11A8559222D110210036203B /* Assets.xcassets */,
 				11A8559422D110210036203B /* LaunchScreen.storyboard */,
 				11A8559722D110210036203B /* Info.plist */,
 			);
 			path = coffeefix;
+			sourceTree = "<group>";
+		};
+		4EB69F3BCC7EEC1B2DA3E8DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				603EEB96B631C56EB0FD8B1F /* Pods_coffeefix.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FB0B501984673212C36675E9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8FBD1A08004276F4347CF263 /* Pods-coffeefix.debug.xcconfig */,
+				200963E67A4383AB899A13A6 /* Pods-coffeefix.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +140,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 11A8559A22D110210036203B /* Build configuration list for PBXNativeTarget "coffeefix" */;
 			buildPhases = (
+				A5C79A4F2A1EEA7CD3C206AE /* [CP] Check Pods Manifest.lock */,
 				11A8558422D110200036203B /* Sources */,
 				11A8558522D110200036203B /* Frameworks */,
 				11A8558622D110200036203B /* Resources */,
+				D7BF46013808BD300619FC63 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,12 +201,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A5C79A4F2A1EEA7CD3C206AE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-coffeefix-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7BF46013808BD300619FC63 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-coffeefix/Pods-coffeefix-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/TextFieldEffects/TextFieldEffects.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TextFieldEffects.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-coffeefix/Pods-coffeefix-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		11A8558422D110200036203B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11939438231B01BC00D9894D /* Constants.swift in Sources */,
+				1193943D231B050900D9894D /* HelpViewController.swift in Sources */,
+				11FC9604236F1C5B005F19B5 /* MeasurementViewController.swift in Sources */,
+				11B594F322DD40F4008F658B /* TimerViewController.swift in Sources */,
 				11A8558E22D110200036203B /* ViewController.swift in Sources */,
+				11B594F122DD3F80008F658B /* CoffeeTimer.swift in Sources */,
+				11939441231B09F100D9894D /* RotateView.swift in Sources */,
+				1193943F231B052500D9894D /* InstructionsViewController.swift in Sources */,
 				11A8558C22D110200036203B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,10 +405,11 @@
 		};
 		11A8559B22D110210036203B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FBD1A08004276F4347CF263 /* Pods-coffeefix.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = JKSR5823SA;
+				DEVELOPMENT_TEAM = 23PWQH6WHK;
 				INFOPLIST_FILE = coffeefix/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -292,16 +418,17 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.kaseyschlaudt.coffeefix;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		11A8559C22D110210036203B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 200963E67A4383AB899A13A6 /* Pods-coffeefix.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = JKSR5823SA;
+				DEVELOPMENT_TEAM = 23PWQH6WHK;
 				INFOPLIST_FILE = coffeefix/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -310,7 +437,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.kaseyschlaudt.coffeefix;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
